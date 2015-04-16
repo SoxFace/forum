@@ -28,11 +28,13 @@ body {
 	background: white;
 	#logo {
 		float: left;
-		p {
+		a {
 			text-transform: uppercase;
 			font-weight: 700;
 			font-size: 1.2rem;
 			letter-spacing: -1px;
+			text-decoration: none;
+			color: #379CAC;
 		}
 	}
 	#buttons {
@@ -71,5 +73,23 @@ body {
 			font-size: 0.9rem;
 			color: #B2BAC2;
 		}
+	}
+}
+
+#post_content {
+	background: white;
+	padding: 2em 5%;
+	border-radius: .5em;
+	h1 {
+		font-weight: 100;
+		font-size: 2em;
+		color: #397CAC;
+		margin-top: 0;
+	}
+	p {
+		color: #B2BAC2;
+		font-size: 0.9rem;
+		font-weight: 100;
+		line-height: 1.5;
 	}
 }
